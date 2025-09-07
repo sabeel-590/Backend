@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "Backend",
   "version": "1.0.0",
   "description": "Minimal backend for Render deployment",
@@ -11,5 +12,26 @@
   },
   "engines": {
     "node": "18.x"
+=======
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cloudinary": "^2.7.0",
+    "express": "^5.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.6",
+    "pg": "^8.16.3",
+    "qrcode": "^1.5.4"
+>>>>>>> f297e56 (Full-featured backend with all optional features)
   }
 }
